@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.js">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        <header id="Home" class="container">
+            <p class="logo">Srun<span>Borath.</span></p>
+            <nav>
+                <a href="index.html" class="active" style=" --i:1;">Home</a>
+                <a href="#Skills" style=" --i:3;">Skills</a>
+                <a href="#projects" style=" --i:4;">Projects</a>
+                <a href="#Contact" style=" --i:2;">Contact</a>
+                <a href="nextPage/about.html" style=" --i:5;">About</a>
+            </nav>
+            <div class="menu">
+                <div class="menu-btn">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="side-bar">
+                    <div>
+                        <div class="close-btn">
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <div class="logo_and_img">
+                            <img class="img_side" src="Images/image_personal.jpg">
+                            <h6 class="side_logo">Srun borath.</h6>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="item"><a href="index.html"><i class='bx bx-home-heart'></i>Home</a></div>
+                        <div class="item"><a class="sub-btn"><i class='bx bxs-medal'></i>Skills
+                            <i class='bx bx-chevron-right'></i>
+                            </a>
+                            <div class="sub-menu">
+                                <a href="#Skills" class="sub-item">Python</a>
+                                <a href="#Skills" class="sub-item">C++</a>
+                                <a href="#Skills" class="sub-item">HTML</a>
+                                <a href="Skills" class="sub-item">CSS</a>
+                                <a href="#Skills" class="sub-item">Bootstrap</a>
+                                <a href="#Skills" class="sub-item">JavaScript</a>
+                                <a href="#Skills" class="sub-item">jquery</a>
+                                <a href="#Skills" class="sub-item">SQLite</a>
+                            </div>
+                        </div>
+                        <div class="item"><a class="sub-btn"><i class='bx bx-book-bookmark'></i>Projects
+                            <i class='bx bx-chevron-right' ></i>
+                            </a>
+                            <div class="sub-menu">
+                                <a href="#Skills" class="sub-item"> POS System Python Qt6</a>
+                                <a href="#Skills" class="sub-item">Speed Game Tkinter</a>
+                                <a href="#Skills" class="sub-item">E-Commerce Website</a>
+                                <a href="#Skills" class="sub-item">E-Commerce Website</a>
+                                <a href="#Skills" class="sub-item">POS Sytem Website</a>
+                             </div>
+                        </div>
+                        <div class="item"><a href="#Contact"><i class='bx bxs-user-rectangle'></i>Contact
+                            <i class='bx bx-chevron-right' ></i></a></div>
+                        <div class="item"><a href="nextPage/about.html"><i class='bx bxs-info-circle'></i>About</a></div>
+                    </div>
+                </div>
+            </div>
+        
+        </header>
+        <!--
+        <script>
+            $(document).ready(function(){
+                $('.menu-btn').click(function(){
+                    $('.side-bar').addClass('active');
+                    $('.menu-btn').css("visibility", "hidden");
+                });
+                $('.close-btn').click(function(){
+                    $('.side-bar').removeClass('active');
+                    $('.menu-btn').css("visibility", "visible");
+                });
+                $('.sub-btn').click(function(event){ // Pass the event object
+                    event.stopPropagation(); // Stop event propagation
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.bx-chevron-right').toggleClass('rotate');
+                });
+            });
+        </script>
+        -->
+    </section>
+    <section class="main_cover">
+        <div class="contianer">
+            <h2><span id="time"></span></h2>
+            <h2>Hello! I'm Srun Borath</h2>
+            <h1>and I'm a <span class="multiple_text"></span></h1>
+            <p>Welcome! For clicked in to my personal website <br>
+                I come from University of Puthisastra  <br>
+                Bachelor of Information Communication & Technology                 
+            </p>  
+            <button type="button" class="btn_cv"><a href="nextPage/about.html">More about me!</a></button>
+            <div class="social-media container">
+                <img src="Images/fb.png" class="social_fb">
+                <img src="Images/telegram.png">
+                <img src="Images/tiktok.png">
+                <img src="Images/instagram.png">
+            </div>    
+        </div>
+        <div class="pic">
+            <img src="Images/image_personal.jpg">
+        </div>
+        <script src="event.js"></script>
+    </section>
+    <section id="Skills">
+        <h3>Exeriance</h3>
+        <div class="grid-container">
+            <div class="icons">
+                <div class="img_icons"><img src="Images/python.png"></div>
+                <div class="title_icons">Python</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/cpp.png"></div>
+                <div class="title_icons">C++</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/html1.png"></div>
+                <div class="title_icons">HTML</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/css.png"></div>
+                <div class="title_icons">CSS</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/boos.png"></div>
+                <div class="title_icons">Bootstrap</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/js.png"></div>
+                <div class="title_icons">Java Script</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/jquery1.webp"></div>
+                <div class="title_icons">jquery</div>
+            </div>
+            <div class="icons">
+                <div class="img_icons"><img src="Images/sqlite.webp"></div>
+                <div class="title_icons">SQLite</div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="img_grid">
+            <div class="ex_detail">
+                <a href="nextPage/detail_Pospy.html">
+                    <h4>Pos System by Python Qt6 final year 2</h4>
+                    <img src="Images/pos_py.png">
+                </a>
+            </div>
+            <div class="ex_detail">
+                <a href="nextPage/detail_Tkinter.html">
+                    <h4>Created Game typing by Tkinter final project year 1 </h4>
+                    <img src="Images/speed_game.png">
+                </a>
+            </div>
+            <div class="ex_detail">
+                <h4>E-Commerce website final project year 2</h4>
+                <img src="Images/ecomerce.png">
+            </div>
+            <div class="ex_detail">
+                <h4>E-Commerce website final project year 2</h4>
+                <img src="Images/shop.png">
+            </div>
+            <div class="ex_detail">
+                <h4>Created Pos System on website</h4>
+                <a href="pos_web.html">
+                    <img src="Images/pos_web.png">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <h3>Contact to me</h3>
+        <div class="grid_contact">
+            <div class="section_contact">
+                <div class="ph_call">
+                    <a href="tel:097 4242291" alt='PhoneIcon'id="phone">
+                        <img src="Images/call.png">
+                        <p>Call to: +885 97 424 2291</p>
+                    </a>
+                </div>
+                <div class="fb_contact">
+                    <a class="fb-link" href="https://www.facebook.com/profile.php?id=100091411132925">
+                        <img src="Images/fb.png" alt="fb Icon">
+                        <p>Connect to Facebook</p>
+                    </a>
+                </div>
+                <div class="telegram_call">
+                    <a class="telegram-link" href="https://t.me/srunborath">
+                        <img src="Images/telegram.png" alt="Telegram Icon">
+                        <p>Connect to Telegram</p>
+                    </a>
+                </div>
+                <div class="home_contact">
+                    <a href="https://maps.google.com/maps?q=st.145A%20R23%20Borey%20New%20World%20Chamkar%20Doung%20PhnomPenh" id="map">
+                        <img src="Images/home.png" alt="Home Icon">
+                        <p class="txt-contact">Location: PhnomPenh Cambodia</p>
+                    </a>
+                </div>
+            </div>
+            <div class="gif_programmer">
+                <img src="Images/giphy.gif">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <p>2024.All rigths reserved by Srun Borath</p>
+        </div>
+    </section>
+</body>
+</html>

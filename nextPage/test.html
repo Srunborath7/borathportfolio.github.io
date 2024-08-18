@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>testing</title>
+  <style>
+    .label-title{
+      text-align: center;
+      height: 80px;
+      width: 100%;
+      background-color: aqua;
+    }
+    img{
+      height: 60%;
+      width: 70%;
+    }
+    .label-title{grid-area: label;}
+    .project-contianer{grid-area: project;}
+    .detail-container{grid-area:detail ; }
+    .grid-contianer{
+      display: grid;
+      grid-template-areas: 'label label label'
+                          'project detail detail';
+    }
+    .project-contianer img{
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="grid-contianer">
+        <div class="label-title">
+            <label>POS System Python Qt6</label>
+        </div>
+        <div class="project-contianer">
+            <img src="Images/pos_py.png">
+        </div>
+        <div class="detail-container">
+            <div class="detail-info">
+                <div>
+                    <h3>Type</h3>
+                    <ul>
+                        <li>
+                            Pos System
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
